@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MechByte Architect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles"></div>
+    <div id="binary-background"></div>
+    <div id="mouse-follower"></div>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#" class="logo">
+                    <span class="text-white">MECH</span>
+                    <span class="text-neon-cyan">BYTE</span>
+                </a>
+                
+                <nav class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                
+                <button class="glow-button cyan">Resume</button>
+                
+                <button class="mobile-menu-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="title">
+                            <span class="text-white">MECH</span>
+                            <span class="text-neon-cyan glow">BYTE</span>
+                            <span class="text-white">ARCHITECT</span>
+                        </h1>
+                        <h2 class="subtitle">Engineer of Tomorrow's Digital Worlds</h2>
+                        <p class="description">
+                            Crafting cutting-edge solutions at the intersection of design and technology.
+                            From game development to machine learning, I build the future one byte at a time.
+                        </p>
+                        <div class="button-group">
+                            <button class="glow-button cyan">View Projects</button>
+                            <a href="#contact" class="glow-button purple">Contact Me</a>
+                        </div>
+                    </div>
+                    
+                    <div class="time-machine">
+                        <div class="outer-ring"></div>
+                        <div class="inner-ring"></div>
+                        <div class="core">
+                            <div class="core-glow"></div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-button orange"></div>
+                        <div class="terminal-button green"></div>
+                        <div class="terminal-button cyan"></div>
+                        <span class="terminal-title">[SYSTEM CONSOLE]</span>
+                    </div>
+                    <div class="terminal-content">
+                        <span class="prompt">$ </span>
+                        <span class="terminal-text"></span>
+                        <span class="cursor">_</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">SERVICES</h2>
+                <div class="services-grid">
+                    <!-- Service cards will be added dynamically via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">TECHNICAL SKILLS</h2>
+                <div class="skills-grid">
+                    <div class="skills-panel">
+                        <h3>Core Proficiencies</h3>
+                        <div class="skill-bars">
+                            <!-- Skill bars will be added dynamically via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="skills-info">
+                        <!-- Technology, Languages, and Tools panels will be added dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <h2 class="section-title">CERTIFICATIONS</h2>
+                <div class="certificates-grid">
+                    <!-- Certificate cards will be added dynamically via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">CONTACT INTERFACE</h2>
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h3>Send Transmission</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label>Name Identifier</label>
+                                <input type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label>Communication Address</label>
+                                <input type="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label>Subject Classification</label>
+                                <input type="text" placeholder="Enter message subject">
+                            </div>
+                            <div class="form-group">
+                                <label>Message Contents</label>
+                                <textarea rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="glow-button cyan full-width">
+                                TRANSMIT MESSAGE
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h4>Communication Channels</h4>
+                            <div class="contact-item">
+                                <img src="gmail.png" class="contact-icon email"></img>
+                                <p>devdudesanjay@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <img src="telephone.png" class="contact-icon phone"></img>
+                                <p>+1 (999) 999-9999</p>
+                            </div>
+                            <div class="contact-item">
+                                <img src="map.png" class="contact-icon location"></img>
+                                <p>India, Earth</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/8uddys4nj4y" class="social-link">
+                                <img src="github.png" style="background-color: aliceblue;" class="social-icon github"></img>
+                            </a>
+                            <a href="https://www.linkedin.com/in/codewith8uddy-sanjay-642a36353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+                                <img src="linkedin.png" style="background-color: aliceblue;" class="social-icon linkedin"></img>
+                            </a>
+                            <a href="" class="social-link">
+                                <img src="twitter.png" style="background-color: aliceblue;" class="social-icon twitter"></img>
+                            </a>
+                            <a href="https://youtube.com/@codewith8uddy?si=vDEMHVhkCNQH3nk_" class="social-link">
+                                <img src="youtube.png" style="background-color: aliceblue;" class="social-icon youtube"></img>
+                            </a>
+                            <a href="https://www.instagram.com/8uddys4nj4y?igsh=MWw4dXU4NGI4em5mcg==" class="social-link">
+                                <img src="social.png" style="background-color: aliceblue;" class="social-icon insta"></img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="text-white">MECH</span>
+                        <span class="text-neon-cyan">BYTE</span>
+                    </a>
+                    <p>Engineering digital solutions at the intersection of creativity and technology.</p>
+                </div>
+                
+                <nav class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MechByte Architect. All rights reserved.</p>
+                <div class="footer-policies">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
